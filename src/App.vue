@@ -1,10 +1,7 @@
 <script setup lang="ts">
+import TopHeader from '@/components/TopHeader.vue'
 </script>
 
 <template>
-    <div>
-        <h1 className="text-3xl font-bold underline">
-            Hello world!
-        </h1>
-    </div>
+    <TopHeader />
 </template>
