@@ -19,7 +19,7 @@
                     <h2 class="section-title">Contribute</h2>
                     <p class="section-content">
                         WP Pager is an open source project. You can contribute to the project by reporting bugs, suggesting new features, or submitting pull requests.
-                        You can find the project on a <a href="https://github.com/SerhiiCho/wp-pager" target="_blank" class="underline">GitHub</a> page.
+                        You can find the project on a <a href="https://github.com/SerhiiCho/wp-pager" target="_blank" class="link">GitHub</a> page. This landing page is for the plugin is <a href="https://github.com/SerhiiCho/wp-pager-landing" target="_blank" class="link">here</a>.
                     </p>
                 </div>
             </div>

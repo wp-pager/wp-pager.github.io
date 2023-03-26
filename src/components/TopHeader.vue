@@ -12,12 +12,12 @@
                 <h2 class="text-md md:text-lg lg:text-xl">WordPress plugin for images album</h2>
                 <h3 class="opacity-70">Free and open-sourced</h3>
 
-                <button
+                <!-- <button
                     class="mt-3 py-2 px-10 bg-teal-700 rounded-full text-lg shadow-lg"
                     type="button"
                 >
                     Download
-                </button>
+                </button> -->
             </div>
         </div>
     </div>
