@@ -5,6 +5,11 @@ module.exports = {
         "./src/**/*.{js,ts,vue}",
     ],
     theme: {
+        container: {
+            center: true,
+            padding: '1rem',
+        },
+
         extend: {
             backgroundImage: {
                 hero: "url('/src/assets/hero.jpg')",
