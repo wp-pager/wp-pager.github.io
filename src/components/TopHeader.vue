@@ -1,6 +1,6 @@
 <script setup lang="ts">
 function download(): void {
-    window.open('https://github.com/SerhiiCho/wp-pager/raw/main/wp/src/wp-content/plugins/wp-pager/versions/wp-pager.zip', '_blank')
+    window.open('https://github.com/SerhiiCho/wp-pager/archive/refs/heads/main.zip', '_blank')
 }
 </script>
 
