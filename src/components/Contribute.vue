@@ -1,5 +1,8 @@
 <script setup lang="ts">
-import Section from '@/components/Section.vue'
+import Section from '@/components/Section/Section.vue'
+import Title from '@/components/Section/Title.vue'
+import Content from '@/components/Section/Content.vue'
+import Link from '@/components/Section/Link.vue'
 </script>
 
 <template>
@@ -16,11 +19,11 @@ import Section from '@/components/Section.vue'
                     </svg>
                 </div>
                 <div>
-                    <h2 class="section-title">Contribute</h2>
-                    <p class="section-content">
+                    <Title>Contribute</Title>
+                    <Content>
                         WP Pager is an open source project. You can contribute to the project by reporting bugs, suggesting new features, or submitting pull requests.
-                        You can find the project on a <a href="https://github.com/SerhiiCho/wp-pager" target="_blank" class="link">GitHub</a> page. This landing page is for the plugin is <a href="https://github.com/SerhiiCho/wp-pager-landing" target="_blank" class="link">here</a>.
-                    </p>
+                        You can find the project on a <Link href="https://github.com/SerhiiCho/wp-pager">GitHub</Link> page. This landing page is for the plugin is <Link href="https://github.com/SerhiiCho/wp-pager-landing">here</Link>.
+                    </Content>
                 </div>
             </div>
         </div>
