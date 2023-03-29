@@ -1,9 +1,9 @@
 <script setup lang="ts">
-
+import Section from '@/components/Section.vue'
 </script>
 
 <template>
-    <div class="section">
+    <Section>
         <div class="container">
             <div class="flex flex-col md:flex-row items-center gap-7 md:gap-14">
                 <div>
@@ -24,5 +24,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </Section>
 </template>

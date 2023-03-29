@@ -1,9 +1,9 @@
 <script setup lang="ts">
-
+import Section from '@/components/Section.vue'
 </script>
 
 <template>
-    <div class="bg-gray-100 section">
+    <Section :dark="true">
         <div class="container">
             <div class="flex flex-col md:flex-row items-center gap-7 md:gap-14">
                 <div>
@@ -13,8 +13,14 @@
                         It is a simple and easy to use plugin that allows you to create a gallery of images in a few minutes.
                     </p>
                 </div>
-                <div></div>
+                <div>
+                    <img
+                        src="../assets/intro.webp"
+                        alt="WP Pager album"
+                        class="w-full max-w-[900px] h-auto shadow-lg"
+                    />
+                </div>
             </div>
         </div>
-    </div>
+    </Section>
 </template>
