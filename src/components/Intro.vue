@@ -19,7 +19,7 @@ import Content from '@/components/Section/Content.vue'
                     <img
                         src="../assets/intro.webp"
                         alt="WP Pager album"
-                        class="w-full max-w-[900px] h-auto shadow-lg"
+                        class="w-full max-w-[300px] md:max-w-[900px] h-auto shadow-lg"
                     />
                 </div>
             </div>
