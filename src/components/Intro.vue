@@ -11,8 +11,8 @@ import Content from '@/components/Section/Content.vue'
                 <div>
                     <Title>Introduction</Title>
                     <Content>
-                        WP Pager is a WordPress plugin that allows you to display images in an album or gallery format.
-                        It is a simple and easy to use plugin that allows you to create a galleries of images.
+                        WP Pager is a WordPress plugin that allows you to display images in album or gallery format.
+                        It is a simple and easy to use plugin that allows you to create galleries of images.
                     </Content>
 
                     <Content>

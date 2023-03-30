@@ -24,6 +24,21 @@ import Link from '@/components/Section/Link.vue'
                         WP Pager is an open source project. You can contribute to the project by reporting bugs, suggesting new features, or submitting pull requests.
                         You can find the project on a <Link href="https://github.com/SerhiiCho/wp-pager">GitHub</Link> page. This landing page is for the plugin is <Link href="https://github.com/SerhiiCho/wp-pager-landing">here</Link>.
                     </Content>
+                    <Content class="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-2">
+                        <span>If you have a little bit of money to spare, you can <Link href="https://www.buymeacoffee.com/serhiicho">buy me a coffee</Link>. It will help me to stay awake and continue to work on the project.</span>
+
+                        <a
+                            href="https://www.buymeacoffee.com/serhiicho"
+                            target="_blank"
+                            class="block w-full max-w-[220px]"
+                        >
+                            <img
+                                src="https://cdn.buymeacoffee.com/buttons/v2/default-white.png"
+                                alt="Buy Me A Coffee"
+                                class="w-full"
+                            >
+                        </a>
+                    </Content>
                 </div>
             </div>
         </div>
