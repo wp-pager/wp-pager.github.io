@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import Logo from '@/components/Icons/Logo.vue'
+import LogoIcon from '@/components/Icons/LogoIcon.vue'
+import DownloadIcon from '@/components/Icons/DownloadIcon.vue'
 
 function download(): void {
     window.open('https://github.com/SerhiiCho/wp-pager/archive/refs/heads/main.zip', '_blank')
@@ -8,7 +9,7 @@ function download(): void {
 
 <template>
     <div class="h-[70vh] bg-gradient-to-r from-gray-800 to-gray-900 relative">
-        <Logo
+        <LogoIcon
             color="#111827"
             width="80%"
             height="80%"
@@ -24,10 +25,11 @@ function download(): void {
                 <div>
                     <button
                         @click="download"
-                        class="mt-3 py-2 px-10 bg-teal-700 rounded-full text-lg shadow-lg"
+                        class="inline-flex items-center mt-3 py-2.5 px-10 bg-teal-700 rounded-full text-lg shadow-lg"
                         type="button"
                     >
-                        Download
+                        <DownloadIcon class="w-5 h-5 mr-2" />
+                        <span>Download</span>
                     </button>
 
                     <small class="block mt-1 opacity-70">Download the latest version</small>
