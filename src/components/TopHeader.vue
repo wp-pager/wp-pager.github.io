@@ -1,12 +1,19 @@
 <script setup lang="ts">
+import Logo from '@/components/Icons/Logo.vue'
+
 function download(): void {
     window.open('https://github.com/SerhiiCho/wp-pager/archive/refs/heads/main.zip', '_blank')
 }
 </script>
 
 <template>
-    <div class="h-[70vh] bg-hero bg-center bg-cover relative">
-        <div class="absolute inset-0 bg-gray-900/90"></div>
+    <div class="h-[70vh] bg-gradient-to-r from-gray-800 to-gray-900 relative">
+        <Logo
+            color="#111827"
+            width="80%"
+            height="80%"
+            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0"
+        />
 
         <div class="flex text-white items-center justify-center h-[70vh] relative z-10">
             <div class="text-center">
