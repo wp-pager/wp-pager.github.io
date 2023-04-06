@@ -4,6 +4,7 @@ import Intro from '@/components/Intro.vue'
 import Contribute from '@/components/Contribute.vue'
 import ManagerFiles from '@/components/ManageFiles.vue'
 import Footer from '@/components/Footer.vue'
+import FrequentQuestions from '@/components/FrequentQuestions.vue'
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import Footer from '@/components/Footer.vue'
         <Intro />
         <ManagerFiles />
         <Contribute />
+        <FrequentQuestions />
         <Footer />
     </div>
 </template>
