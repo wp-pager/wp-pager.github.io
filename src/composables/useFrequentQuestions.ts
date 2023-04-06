@@ -10,7 +10,11 @@ export default () => {
         },
         {
             question: 'How to add an image to album?',
-            answer: `After installing and enabling the plugin in WordPress admin panel, you will be able to navigate to the WP Pager plugin page. There you will see 4 tabs. The "Uploader" tab will be responsible for uploading images to the album. See the screenshot in <a href="#manage-files-easily">"Manage files easily"</a> section.`,
+            answer: `After installing and enabling the plugin in WordPress admin panel, you will be able to navigate to the WP Pager plugin page. There you will see 4 tabs. The "Uploader" tab will be responsible for uploading images to the album. See the screenshot on <a href="#manage-files-easily">"Manage files easily"</a> section.`,
+        },
+        {
+            question: 'How to add a new album?',
+            answer: `After installing and enabling the plugin in WordPress admin panel, you will be able to use a shortcode <code>[wp_pager_album]</code> to add a new album to any page or post.`,
         },
     ]
 
