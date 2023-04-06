@@ -15,14 +15,14 @@ window.setInterval(() => enabled.value = !enabled.value, 2000)
         <span class="block text-gray-400 tracking-widest text-xs lg:text-sm transition-all duration-500 drop-shadow-[2px_8px_2px_rgb(0_0_0/50%)] group-hover:-translate-y-2 group-hover:scale-90 group-hover:drop-shadow-[2px_5px_2px_rgb(0_0_0/50%)]">
             <span class="mr-1">MADE</span>
             <span
-                class="transition-all delay-1000 duration-1000"
+                class="transition-all duration-1000"
                 :class="{ '-ml-6 opacity-0': enabled }"
             >
                 BY
             </span>
 
             <span
-                class="transition-all delay-1000 duration-1000  inline-block"
+                class="transition-all duration-1000  inline-block"
                 :class="{
                     'opacity-100 m-0': enabled,
                     'opacity-0 -ml-16': !enabled,
