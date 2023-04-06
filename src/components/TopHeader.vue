@@ -1,10 +1,6 @@
 <script setup lang="ts">
 import LogoIcon from '@/components/Icons/LogoIcon.vue'
-import DownloadIcon from '@/components/Icons/DownloadIcon.vue'
-
-function download(): void {
-    window.open('https://github.com/SerhiiCho/wp-pager/archive/refs/heads/main.zip', '_blank')
-}
+import DownloadButton from '@/components/DownloadButton.vue'
 </script>
 
 <template>
@@ -23,15 +19,7 @@ function download(): void {
                 <h3 class="opacity-70">Free and open-sourced</h3>
 
                 <div>
-                    <button
-                        @click="download"
-                        class="inline-flex items-center mt-3 py-2.5 px-10 bg-teal-700 rounded-full text-lg shadow-lg"
-                        type="button"
-                    >
-                        <DownloadIcon class="w-5 h-5 mr-2" />
-                        <span>Download</span>
-                    </button>
-
+                    <DownloadButton />
                     <small class="block mt-1 opacity-70">Download the latest version</small>
                 </div>
             </div>

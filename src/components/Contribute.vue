@@ -28,8 +28,6 @@ import Link from '@/components/Section/Link.vue'
                     </Content>
 
                     <Content>
-                    </Content>
-                    <Content>
                         <span>
                             If you find WP Pager useful and would like to show your appreciation for our efforts,
                             you can also contribute to the project by <Link href="https://www.buymeacoffee.com/serhiicho">buying us a coffee</Link>.
