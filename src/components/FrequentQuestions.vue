@@ -20,9 +20,10 @@ const { qaItems } = useFrequentQuestions()
                             <h3 class="text-lg lg:text-xl font-bold text-gray-700">
                                 ❓ {{ item.question }}
                             </h3>
-                            <p class="ml-2.5 pl-4 my-2 border-l-2 border-dotted border-gray-400 text-gray-500 text-md lg:text-lg">
-                                {{ item.answer }}
-                            </p>
+                            <p
+                                class="ml-2.5 pl-4 my-2 border-l-2 border-dotted border-gray-400 text-gray-500 text-md lg:text-lg [&>a]:underline"
+                                v-html="item.answer"
+                            ></p>
                         </li>
                     </ul>
                 </div>

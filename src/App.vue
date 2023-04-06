@@ -5,6 +5,10 @@ import Contribute from '@/components/Contribute.vue'
 import ManagerFiles from '@/components/ManageFiles.vue'
 import Footer from '@/components/Footer.vue'
 import FrequentQuestions from '@/components/FrequentQuestions.vue'
+import { onMounted } from 'vue'
+import handleScrollingToAnchor from '@/modules/handleScrollingToAnchor'
+
+onMounted(() => handleScrollingToAnchor())
 </script>
 
 <template>
