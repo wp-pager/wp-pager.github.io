@@ -8,10 +8,6 @@ export default () => {
             question: 'Why giving an image a title is important?',
             answer: 'Image tab title is used as a name for the image in album. By default, each image is numbered starting from 1. If you give an image a title, it will be used instead of the number. For example, if you have an image with your cat, you can give it a title "My cat".',
         },
-        {
-            question: '',
-            answer: '',
-        },
     ]
 
     return {

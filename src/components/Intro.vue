@@ -9,7 +9,7 @@ import Content from '@/components/Section/Content.vue'
         <div class="container">
             <div class="flex flex-col md:flex-row items-center gap-7 md:gap-14">
                 <div>
-                    <Title>Introduction</Title>
+                    <Title anchor="introduction">Introduction</Title>
                     <Content>
                         Welcome to WP Pager, the free WordPress plugin that empowers you to showcase
                         your images in stunning album or gallery format. Our plugin boasts a sleek and

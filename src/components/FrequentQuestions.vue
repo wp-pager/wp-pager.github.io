@@ -15,7 +15,7 @@ const { qaItems } = useFrequentQuestions()
                         Frequently Asked Questions
                     </Title>
 
-                    <ul class="mt-5 lg:mt-7">
+                    <ul class="mt-5 lg:mt-7 space-y-7">
                         <li v-for="item in qaItems" :key="item.question">
                             <h3 class="text-lg lg:text-xl font-bold text-gray-700">
                                 ❓ {{ item.question }}

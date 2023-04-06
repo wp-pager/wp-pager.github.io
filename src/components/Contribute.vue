@@ -19,7 +19,7 @@ import Link from '@/components/Section/Link.vue'
                     </svg>
                 </div>
                 <div class="w-full">
-                    <Title>Contribute</Title>
+                    <Title anchor="contribute">Contribute</Title>
                     <Content>
                         As an open source project, we are committed to continuously improving the plugin and welcome
                         contributions from the community.

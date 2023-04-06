@@ -16,7 +16,7 @@ import Content from '@/components/Section/Content.vue'
                     />
                 </div>
                 <div class="flex-1">
-                    <Title>Manage files easily</Title>
+                    <Title anchor="manage-files-easily">Manage files easily</Title>
                     <Content>
                         With WP Pager you can upload and delete files with ease, and provide titles
                         to each file for a better user experience. The plugin organizes your files
