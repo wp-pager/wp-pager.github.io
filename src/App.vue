@@ -3,6 +3,7 @@ import TopHeader from '@/components/TopHeader.vue'
 import Intro from '@/components/Intro.vue'
 import Contribute from '@/components/Contribute.vue'
 import ManagerFiles from '@/components/ManageFiles.vue'
+import Footer from '@/components/Footer.vue'
 </script>
 
 <template>
@@ -11,5 +12,6 @@ import ManagerFiles from '@/components/ManageFiles.vue'
         <Intro />
         <ManagerFiles />
         <Contribute />
+        <Footer />
     </div>
 </template>
