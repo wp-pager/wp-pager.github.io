@@ -24,7 +24,7 @@ import Link from '@/components/Section/Link.vue'
                         As an open source project, we are committed to continuously improving the plugin and welcome
                         contributions from the community.
                         You can support the development of WP Pager by reporting bugs, suggesting new features,
-                        or submitting pull requests on our <Link href="https://github.com/SerhiiCho/wp-pager">GitHub page</Link>.
+                        or submitting pull requests on our <Link href="https://github.com/wp-pager/wp-pager">GitHub page</Link>.
                     </Content>
 
                     <Content>

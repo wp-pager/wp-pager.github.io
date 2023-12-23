@@ -2,7 +2,7 @@
 import DownloadIcon from '@/components/Icons/DownloadIcon.vue'
 
 function download(): void {
-    window.open('https://github.com/SerhiiCho/wp-pager/archive/refs/heads/main.zip', '_blank')
+    window.open('https://github.com/wp-pager/wp-pager/archive/refs/heads/main.zip', '_blank')
 }
 </script>
 

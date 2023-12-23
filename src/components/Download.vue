@@ -13,7 +13,7 @@ import DownloadButton from '@/components/DownloadButton.vue'
                     <Title anchor="download-plugin">Download plugin</Title>
                     <Content>
                         Download the latest version of WP Pager plugin for free and without any paid subscriptions.
-                        If you need to download an older version, please visit available <a href="https://github.com/SerhiiCho/wp-pager/branches" target="_blank" rel="noopener noreferrer">GitHub branches</a> to download.
+                        If you need to download an older version, please visit available <a href="https://github.com/wp-pager/wp-pager/branches" target="_blank" rel="noopener noreferrer">GitHub branches</a> to download.
                     </Content>
                 </div>
                 <DownloadButton class="py-4 lg:py-5 px-16 lg:px-20 text-lg lg:text-xl" />

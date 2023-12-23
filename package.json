@@ -2,6 +2,8 @@
   "name": "wp-pager-landing",
   "private": true,
   "version": "0.0.0",
+  "repository": "https://github.com/wp-pager/wp-pager.github.io",
+  "homepage": "https://wp-pager.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
