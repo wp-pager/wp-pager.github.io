@@ -1,14 +1,13 @@
 {
   "name": "wp-pager",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "repository": "https://github.com/wp-pager/wp-pager.github.io",
   "homepage": "https://wp-pager.github.io/",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vue-tsc && vite build",
-    "deploy": "yarn build && gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -18,7 +17,6 @@
     "@vitejs/plugin-vue": "^4.1.0",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.21",
-    "gh-pages": "^6.1.1",
     "tailwindcss": "^3.2.7",
     "typescript": "^4.9.3",
     "vite": "^4.2.1",
