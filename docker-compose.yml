@@ -1,0 +1,13 @@
+name: wp-pager-landing
+
+services:
+    app:
+        image: wp-pager-landing
+        container_name: wp-pager-landing
+        build:
+            context: .
+        volumes:
+            - .:/app
+            - /app/node_modules
+        ports:
+            - 3000:3000
