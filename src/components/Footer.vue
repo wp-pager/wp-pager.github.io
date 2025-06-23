@@ -5,6 +5,6 @@ import Author from '@/components/Author.vue'
 <template>
     <footer class="py-10 lg:py-16 bg-gradient-to-b from-gray-800 to-gray-900 text-center">
         <Author />
-        <span>Test</span>
+        <span>Here</span>
     </footer>
 </template>
