@@ -18,7 +18,7 @@ npm run dev
 yarn dev
 ```
 
-Navigate to `http://localhost:5173` to see your documentation.
+Navigate to `http://localhost:3000` to see your documentation.
 
 ### With Docker
 #### Build an image
