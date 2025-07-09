@@ -14,12 +14,15 @@ onMounted(() => handleScrollingToAnchor())
 
 <template>
     <div class="text-gray-900">
-        <TopHeader />
+        <div class="text-center py-5">
+            <h1 class="text-2xl">🤷🏻 WP Pager download is temporary disabled</h1>
+        </div>
+        <!-- <TopHeader />
         <Intro />
         <ManagerFiles />
         <Contribute />
         <FrequentQuestions />
         <Download />
-        <Footer />
+        <Footer /> -->
     </div>
 </template>
