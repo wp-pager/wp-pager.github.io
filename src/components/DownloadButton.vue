@@ -3,7 +3,7 @@ import DownloadIcon from '@/components/Icons/DownloadIcon.vue'
 
 function download(): void {
     window.open(
-        'https://github.com/wp-pager/wp-pager/archive/refs/heads/master.zip',
+        'https://github.com/wp-pager/wp-pager/archive/refs/heads/plugin.zip',
         '_blank',
     )
 }
