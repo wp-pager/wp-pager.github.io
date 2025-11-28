@@ -23,10 +23,10 @@ podman-compose run --rm app npm i
 To run a container, navigate to the root of the project and run this command:
 
 ```bash
-podman-compose up -d
+podman-compose up
 ```
 
-You can visit `http://localhost:3000` to see your documentation.
+You can visit [localhost:3000](http://localhost:3000) to see your documentation.
 
 #### Enter the Container
 To enter inside of the container, run this command:
@@ -55,4 +55,4 @@ npm i
 npm run dev
 ```
 
-Navigate to `http://localhost:3000` to see your documentation.
+Navigate to [localhost:3000](http://localhost:3000) to see your documentation.
