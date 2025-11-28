@@ -12,7 +12,7 @@ function download(): void {
 <template>
     <button
         @click="download"
-        class="inline-flex items-center mt-3 py-2.5 px-10 bg-teal-700 text-white rounded-full text-lg shadow-lg"
+        class="inline-flex items-center mt-3 py-2.5 px-10 bg-teal-700 hover:bg-teal-800 transition-colors text-white rounded-full text-lg shadow-lg cursor-pointer"
         type="button"
     >
         <DownloadIcon class="w-5 h-5 mr-2" />

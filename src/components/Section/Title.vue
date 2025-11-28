@@ -9,7 +9,7 @@ const { anchor } = defineProps<Props>()
 </script>
 
 <template>
-    <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center md:text-left relative flex items-center gap-3">
+    <h2 class="text-2xl md:text-4xl lg:text-5xl font-bold text-center md:text-left relative flex items-center gap-3">
         <a
             :href="`#${anchor}`"
             :id="anchor"
