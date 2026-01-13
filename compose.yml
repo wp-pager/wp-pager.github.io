@@ -4,9 +4,7 @@ services:
     app:
         image: wp-pager-landing
         container_name: wp-pager-landing
-        build:
-            context: .
-            dockerfile: Containerfile
+        build: .
         volumes:
             - .:/app:z
         ports:
