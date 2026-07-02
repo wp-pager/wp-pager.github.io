@@ -1,7 +1,0 @@
-.git
-.github
-.gitignore
-.prettierrc
-.vscode
-node_modules
-*.md

@@ -6,6 +6,6 @@ services:
         container_name: wp-pager-landing
         build: .
         volumes:
-            - .:/app:z
+            - .:/var/www/html:z
         ports:
             - 3000:3000
