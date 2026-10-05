@@ -1,9 +1,8 @@
 {
     "name": "wp-pager",
     "private": false,
-    "version": "1.0.0",
     "repository": "https://codeberg.org/wp-pager/pages",
-    "homepage": "https://wp-pager.codeberg.page/",
+    "homepage": "https://wp-pager.serhiicho.com/",
     "type": "module",
     "scripts": {
         "dev": "vite --host",
