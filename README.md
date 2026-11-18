@@ -1,5 +1,7 @@
 # WP Pager Landing Page Site
 
+[![Build and Deploy](https://github.com/wp-pager/wp-pager.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/wp-pager/wp-pager.github.io/actions/workflows/gh-pages.yml)
+
 ## Contribute
 
 ### With Container Engine
