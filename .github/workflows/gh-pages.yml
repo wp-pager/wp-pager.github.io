@@ -22,10 +22,9 @@ jobs:
             - name: Deploy Vite App 🚀
               uses: SerhiiChoAction/deploy-vite@v1
               with:
-                host-user: ${{ secrets.HOST_USER }}
-                host-ip: ${{ secrets.HOST_IP }}
-                host-key: ${{ secrets.HOST_PRIVATE_SSH_KEY }}
-                from: dist/
-                to: ~/pages/wp-pager
-                to-pages-branch: true
-
+                  host-user: ${{ secrets.HOST_USER }}
+                  host-ip: ${{ secrets.HOST_IP }}
+                  host-key: ${{ secrets.HOST_PRIVATE_SSH_KEY }}
+                  from: dist/
+                  to: ~/pages/wp-pager
+                  to-pages-branch: true
