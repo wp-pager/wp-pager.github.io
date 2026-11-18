@@ -1,7 +1,7 @@
 {
     "name": "wp-pager",
     "private": false,
-    "repository": "https://codeberg.org/wp-pager/pages",
+    "repository": "https://github.com/wp-pager/wp-pager.github.io",
     "homepage": "https://wp-pager.serhiicho.com/",
     "type": "module",
     "scripts": {
